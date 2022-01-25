@@ -7,9 +7,9 @@ body {
 }
 
 #container {
-  max-width: 1250px;
-  margin: 20px auto;
-  border: 10px solid green;
+  max-width: 1500px;
+  margin: 10px auto;
+  /* border: 10px solid green; */
 
   background-color: black;
   opacity: 0.6;
