@@ -1,56 +1,169 @@
-body{
-   
-    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/blog3.jpg);
+}
+
+#container {
+  max-width: 1250px;
+  margin: 20px auto;
+  border: 10px solid green;
+
+  background-color: black;
+  opacity: 0.6;
+  /* font-size: 1.5rem;    */
+}
+
+.main {
+  width: 500px;
+  margin: auto;
+  padding: 8px 5px;
+  border: 5px solid red;
+  /* background-color: thistle; */
+  font-size: 1.2rem;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  margin-right: 5px;
+  border: 5px ridge yellow;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 13px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.logo:hover{
+    opacity: 1;
+}
+
+.title {
   
+  /* border: 5px solid red; */
+  opacity: 0.6;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 5px;
 }
-#container{
-    max-width: 1240px;
-    height: 800px;
-    
-    margin: 0, auto;
-    background-color: burlywood;
-    background-image: url(./images/blog3.jpg);
-    border: 3px solid black;
-    
+.title:hover{
+    opacity: 1;
+
 }
-.logo{
-    float: left;
-    padding: 10px;
-    border: 2px solid yellow;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
+
+h3 {
+  font-size: 1.3rem;
+  color: crimson;
+  line-height: 0.3rem;
+  font-weight: 500;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.poem {
+  color: white;
+  line-height: 0.45rem;
+  font-size: 0.75rem;
+  font-family: 'Courgette', cursive;;
+}
+#explanation {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 20px;
+  /* border: 10px solid red; */
+  color: whitesmoke;
+  opacity: 0.6;
+  text-align: justify;
+}
+#explanation:hover{
+    opacity: 1;
+}
+#devam{
+    text-align: right;
+    color: white;    
+    /* text-decoration: blue */
     margin-right: 10px;
-    margin-left: 10px;
-    height: 16rem;
 }
-.title{
+.main-link{
+    color: blue;
+    opacity: 0.6;
+}
+.main-link:hover{
+    opacity: 1;
+    font-size: 1rem;
+    background-color: crimson;
+}
+h4{
+    text-align: center;
     color: white;
-    margin-left: 10px;
-    background-color: black;
     opacity: 0.6;
     
+    line-height: 1.4rem;
+    padding: 2px;
+    margin: 3px;
+    
+    /* margin: 5px; */
+    
+    
+}
+h4:hover{
+  background-color: grey;
+  
+  opacity: 1;
+  color: black;
+  font-size: 1.6rem;
+  
+}
+#cald{
+    width: 40%;
+    opacity: 0.6;
+    border: 4px solid purple;
+    border-radius: 20px;
+    float: right;
+    /* display: inline-block; */
+    margin-left: 5px;
+}
+#cald:hover{
+  opacity: 1;
+}
+.explanation-1{
+  color: white;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+  opacity: 0.6;
+  
+}
+.explanation-1:hover{
+  opacity: 1;
+}
 
-}
-.entry{
-   
-    margin: 30px ;
-}
-h3{
-    font-size: 4rem;
-    color: crimson;  
-   
+#merc{
+  width: 35%;
+  opacity: 0.6;
+  border: 4px solid purple;
+  border-radius: 20px;
+  float: left;
+  /* display: inline-block; */
+  margin-right: 5px;
 }
 
-.title > p{
-    font-size: 1.5rem;
+#rida{
+  width: 35%;
+  opacity: 0.6;
+  border: 4px solid purple;
+  border-radius: 20px;
+  float: right; 
+  margin-top:0px
 }
-.poem{
-    line-height: 12px;
+.bottom{
+  /* margin-top: 2px;
+  margin-bottom: 2px; */
 }
-#explanation{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
+
 
 
 
