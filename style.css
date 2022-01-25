@@ -1,0 +1,56 @@
+body{
+   
+    
+  
+}
+#container{
+    max-width: 1240px;
+    height: 800px;
+    
+    margin: 0, auto;
+    background-color: burlywood;
+    background-image: url(./images/blog3.jpg);
+    border: 3px solid black;
+    
+}
+.logo{
+    float: left;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 16rem;
+}
+.title{
+    color: white;
+    margin-left: 10px;
+    background-color: black;
+    opacity: 0.6;
+    
+
+}
+.entry{
+   
+    margin: 30px ;
+}
+h3{
+    font-size: 4rem;
+    color: crimson;  
+   
+}
+
+.title > p{
+    font-size: 1.5rem;
+}
+.poem{
+    line-height: 12px;
+}
+#explanation{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
